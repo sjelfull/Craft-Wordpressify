@@ -1,0 +1,26 @@
+{#
+/**
+ * Wordpressify plugin for Craft CMS
+ *
+ * Wordpressify Settings.twig
+ *
+ * @author    Fred Carlsen
+ * @copyright Copyright (c) 2016 Fred Carlsen
+ * @link      http://sjelfull.no
+ * @package   Wordpressify
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "wordpressify/css/Wordpressify_Style.css" %}
+{% includeJsResource "wordpressify/js/Wordpressify_Script.js" %}
+
+{{ forms.textField({
+    label: 'Some Setting',
+    instructions: 'Enter some setting here.',
+    id: 'someSetting',
+    name: 'someSetting', 
+    value: settings['someSetting']})
+}}

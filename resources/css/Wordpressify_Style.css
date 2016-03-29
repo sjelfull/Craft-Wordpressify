@@ -1,0 +1,79 @@
+/**
+ * Wordpressify plugin for Craft CMS
+ *
+ * Wordpressify CSS
+ *
+ * @author    Fred Carlsen
+ * @copyright Copyright (c) 2016 Fred Carlsen
+ * @link      http://sjelfull.no
+ * @package   Wordpressify
+ * @since     1.0.0
+ */
+
+#login-form {
+
+}
+
+#login-form h1 {
+    background-image: url(../images/wordpress-logo.svg?ver=20131107);
+    -webkit-background-size: 84px;
+    background-size: 84px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 84px;
+    font-size: 20px;
+    line-height: 1.3em;
+    margin: 0 auto 25px;
+    padding: 0;
+    width: 84px;
+    text-indent: -9999px;
+    outline: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -42px;
+    transform: translate(0, -130%);
+}
+
+#login-form {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 46px;
+    background-color: #fff !important;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+    box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+
+    :root #login-form .buttons {
+        text-align: right;
+    }
+
+    :root #login-form .submit {
+        cursor: pointer;
+        font-size: 13px;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 3px;
+        white-space: nowrap;
+        background: #0085ba;
+        border-color: #0073aa #006799 #006799;
+        -webkit-box-shadow: 0 1px 0 #006799;
+        box-shadow: 0 1px 0 #006799;
+        color: #fff;
+        text-decoration: none;
+        text-shadow: 0 -1px 1px #006799,1px 0 1px #006799,0 1px 1px #006799,-1px 0 1px #006799;
+        height: 30px;
+        line-height: 28px;
+        padding: 0 12px 2px;
+        display: inline-block;
+        width: auto;
+    }
+
+#poweredby {
+    display: none !important;
+}
+
+:root #forgot-password {
+    font-size: 13px;
+}
