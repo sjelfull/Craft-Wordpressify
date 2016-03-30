@@ -63,7 +63,7 @@ class WordpressifyPlugin extends BasePlugin
      */
     public function getDescription()
     {
-        return Craft::t('Convert Craft into Wordpress');
+        return Craft::t('Transform Craft into Wordpress');
     }
 
     /**
@@ -131,86 +131,4 @@ class WordpressifyPlugin extends BasePlugin
     {
         return 'http://sjelfull.no';
     }
-
-    /**
-     * Returns whether the plugin should get its own tab in the CP header.
-     *
-     * @return bool
-     */
-    public function hasCpSection()
-    {
-        return false;
-    }
-
-    /**
-     * Called right before your plugin’s row gets stored in the plugins database table, and tables have been created
-     * for it based on its records.
-     */
-    public function onBeforeInstall()
-    {
-    }
-
-    /**
-     * Called right after your plugin’s row has been stored in the plugins database table, and tables have been
-     * created for it based on its records.
-     */
-    public function onAfterInstall()
-    {
-    }
-
-    /**
-     * Called right before your plugin’s record-based tables have been deleted, and its row in the plugins table
-     * has been deleted.
-     */
-    public function onBeforeUninstall()
-    {
-    }
-
-    /**
-     * Called right after your plugin’s record-based tables have been deleted, and its row in the plugins table
-     * has been deleted.
-     */
-    public function onAfterUninstall()
-    {
-    }
-
-    /**
-     * Defines the attributes that model your plugin’s available settings.
-     *
-     * @return array
-     */
-    protected function defineSettings()
-    {
-        return array(
-            'someSetting' => array(AttributeType::String, 'label' => 'Some Setting', 'default' => ''),
-        );
-    }
-
-    /**
-     * Returns the HTML that displays your plugin’s settings.
-     *
-     * @return mixed
-     */
-    public function getSettingsHtml()
-    {
-       return craft()->templates->render('wordpressify/Wordpressify_Settings', array(
-           'settings' => $this->getSettings()
-       ));
-    }
-
-    /**
-     * If you need to do any processing on your settings’ post data before they’re saved to the database, you can
-     * do it with the prepSettings() method:
-     *
-     * @param mixed $settings  The Widget's settings
-     *
-     * @return mixed
-     */
-    public function prepSettings($settings)
-    {
-        // Modify $settings here...
-
-        return $settings;
-    }
-
 }
