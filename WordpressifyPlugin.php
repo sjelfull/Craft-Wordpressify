@@ -42,6 +42,7 @@ class WordpressifyPlugin extends BasePlugin
     {
         if (craft()->request->isCpRequest()) {
             craft()->templates->includeCssResource('wordpressify/css/Wordpressify_Style.css');
+            craft()->templates->includeJsResource('wordpressify/js/Wordpressify.js');
         }
     }
 
@@ -52,7 +53,7 @@ class WordpressifyPlugin extends BasePlugin
      */
     public function getName()
     {
-         return Craft::t('Wordpressify');
+         return Craft::t('WordPressify');
     }
 
     /**
@@ -63,7 +64,7 @@ class WordpressifyPlugin extends BasePlugin
      */
     public function getDescription()
     {
-        return Craft::t('Transform Craft into Wordpress');
+        return Craft::t('Transform Craft into WordPress');
     }
 
     /**
@@ -96,7 +97,7 @@ class WordpressifyPlugin extends BasePlugin
      */
     public function getVersion()
     {
-        return '1.0.0';
+        return '1.0.1';
     }
 
     /**
