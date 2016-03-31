@@ -1,6 +1,6 @@
 # WordPressify plugin for Craft CMS
 
-Your client asked for a WordPress site. And that's exactly what they're going to get – as far as they know.
+Your client asked for a WordPress site. And that's exactly what they're going to get.
 
 ![Screenshot](resources/screenshots/login-screen.png)
 
