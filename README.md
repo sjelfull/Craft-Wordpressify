@@ -1,4 +1,4 @@
-# WordPressify plugin for Craft CMS
+# WordPressify 1.0.2 plugin for Craft CMS
 
 Your client asked for a WordPress site. And that's exactly what they're going to get.
 
@@ -20,6 +20,10 @@ WordPressify works on Craft 2.4.x and Craft 2.5.x.
 * Take over the world
 
 ## WordPressify Changelog
+
+### 1.0.2 -- 2016.03.31
+
+* Now replaces the word "Craft" with the word "WordPress"
 
 ### 1.0.1 -- 2016.03.31
 

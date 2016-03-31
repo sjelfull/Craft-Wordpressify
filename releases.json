@@ -1,5 +1,13 @@
 [
     {
+        "version": "1.0.2",
+        "downloadUrl": "https://github.com/sjelfull/Craft-Wordpressify/archive/master.zip",
+        "date": "2016-03-31T13:00:27.132Z",
+        "notes": [
+            "[Improved] Even more sneaky"
+        ]
+    },
+    {
         "version": "1.0.1",
         "downloadUrl": "https://github.com/sjelfull/Craft-Wordpressify/archive/master.zip",
         "date": "2016-03-31T13:00:27.132Z",
