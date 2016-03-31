@@ -132,4 +132,5 @@ class WordpressifyPlugin extends BasePlugin
     {
         return 'http://sjelfull.no';
     }
+
 }
