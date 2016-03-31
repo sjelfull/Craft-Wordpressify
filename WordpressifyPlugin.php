@@ -87,7 +87,7 @@ class WordpressifyPlugin extends BasePlugin
      */
     public function getReleaseFeedUrl()
     {
-        return 'https://raw.githubusercontent.com/sjelfull/wordpressify/master/releases.json';
+        return 'https://raw.githubusercontent.com/sjelfull/Craft-Wordpressify/master/releases.json';
     }
 
     /**
